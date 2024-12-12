@@ -1,0 +1,4 @@
+pyopengl
+pyqt5
+pyqtgraph
+matplotlib
