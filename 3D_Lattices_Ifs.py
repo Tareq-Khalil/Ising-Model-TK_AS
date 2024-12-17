@@ -18,16 +18,13 @@ def generate_3d_lattice(L, T, T_c):
 def plot_3d_lattice(spins, title):
   
     L = spins.shape[0]
-    x, y, z = np.meshgrid(range(L), range(L),
-range(L), indexing='ij')
+    x, y, z = np.meshgrid(range(L), range(L), range(L), indexing='ij')
     fig = plt.figure(figsize=(8, 8))
     ax = fig.add_subplot(111, projection='3d')
 
 
-    ax.scatter(x[spins == 1], y[spins == 1], 
-z[spins == 1], color='red', label='Spin +1')
-    ax.scatter(x[spins == -1], y[spins == -1],
-z[spins == -1], color='blue', label='Spin -1')
+    ax.scatter(x[spins == 1], y[spins == 1],  z[spins == 1], color='red', label='Spin +1')
+    ax.scatter(x[spins == -1], y[spins == -1], z[spins == -1], color='blue', label='Spin -1')
 
     ax.set_title(title)
     ax.set_xlabel("X")
