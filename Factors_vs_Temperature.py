@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+
 T = np.linspace(1, 5, 100)  
 T_c = 2.27  
 M = np.tanh((T_c - T) * 5)  
