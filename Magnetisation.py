@@ -1,3 +1,4 @@
+
 H = np.linspace(-2, 2, 100)  
 T_fixed = [1.5, 2.0, 2.5]  
 colors = ['blue', 'green', 'orange']
