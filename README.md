@@ -74,20 +74,3 @@ For a detailed explanation of the project and how it works, watch the following 
 [Project Explanation Video](https://cloud-qx170pghq-hack-club-bot.vercel.app/0bandicam_2025-01-26_04-38-04-629.mp4)
 
 ---
-
-## File Structure
-
-The project contains the following key files:
-
-- `ising_model_simulation.py` - Main script for generating simulations and plots.
-- `README.md` - Instructions and project details.
-- `requirements.txt` - List of dependencies (optional).
-
----
-
-## Troubleshooting
-
-If you encounter any issues while running the project, consider the following:
-
-- Ensure Python is installed correctly by running:
-
