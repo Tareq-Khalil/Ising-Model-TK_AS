@@ -5,7 +5,6 @@ from mpl_toolkits.mplot3d import Axes3D
 
 L = 10  
 np.random.seed(42)  
-
 def generate_3d_lattice(L, T, T_c):
    
     spins = np.random.choice([-1, 1], size=(L, L, L))  
